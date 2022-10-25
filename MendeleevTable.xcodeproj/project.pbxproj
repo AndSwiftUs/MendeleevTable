@@ -16,6 +16,16 @@
 		A54BCB782907E02200915EF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54BCB772907E02200915EF0 /* ContentView.swift */; };
 		A54BCB7A2907E02300915EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54BCB792907E02300915EF0 /* Assets.xcassets */; };
 		A54BCB7D2907E02300915EF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54BCB7C2907E02300915EF0 /* Preview Assets.xcassets */; };
+		A54BCB8C2907E0F300915EF0 /* PeriodicTableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54BCB872907E0F300915EF0 /* PeriodicTableModel.swift */; };
+		A54BCB8D2907E0F300915EF0 /* PeriodicTableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54BCB872907E0F300915EF0 /* PeriodicTableModel.swift */; };
+		A54BCB8E2907E0F300915EF0 /* PeriodicTableJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54BCB882907E0F300915EF0 /* PeriodicTableJSON.swift */; };
+		A54BCB8F2907E0F300915EF0 /* PeriodicTableJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54BCB882907E0F300915EF0 /* PeriodicTableJSON.swift */; };
+		A54BCB902907E0F300915EF0 /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54BCB892907E0F300915EF0 /* MainListView.swift */; };
+		A54BCB912907E0F300915EF0 /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54BCB892907E0F300915EF0 /* MainListView.swift */; };
+		A54BCB922907E0F300915EF0 /* Color.Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54BCB8A2907E0F300915EF0 /* Color.Extention.swift */; };
+		A54BCB932907E0F300915EF0 /* Color.Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54BCB8A2907E0F300915EF0 /* Color.Extention.swift */; };
+		A54BCB942907E0F300915EF0 /* ElementDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54BCB8B2907E0F300915EF0 /* ElementDetailView.swift */; };
+		A54BCB952907E0F300915EF0 /* ElementDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54BCB8B2907E0F300915EF0 /* ElementDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +63,11 @@
 		A54BCB772907E02200915EF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A54BCB792907E02300915EF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A54BCB7C2907E02300915EF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A54BCB872907E0F300915EF0 /* PeriodicTableModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeriodicTableModel.swift; sourceTree = "<group>"; };
+		A54BCB882907E0F300915EF0 /* PeriodicTableJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeriodicTableJSON.swift; sourceTree = "<group>"; };
+		A54BCB892907E0F300915EF0 /* MainListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
+		A54BCB8A2907E0F300915EF0 /* Color.Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.Extention.swift; sourceTree = "<group>"; };
+		A54BCB8B2907E0F300915EF0 /* ElementDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +91,11 @@
 		A54BCB572907E02200915EF0 = {
 			isa = PBXGroup;
 			children = (
+				A54BCB8A2907E0F300915EF0 /* Color.Extention.swift */,
+				A54BCB8B2907E0F300915EF0 /* ElementDetailView.swift */,
+				A54BCB892907E0F300915EF0 /* MainListView.swift */,
+				A54BCB882907E0F300915EF0 /* PeriodicTableJSON.swift */,
+				A54BCB872907E0F300915EF0 /* PeriodicTableModel.swift */,
 				A54BCB622907E02200915EF0 /* MendeleevTable */,
 				A54BCB742907E02200915EF0 /* MendeleevTable Watch App */,
 				A54BCB612907E02200915EF0 /* Products */,
@@ -231,8 +251,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A54BCB942907E0F300915EF0 /* ElementDetailView.swift in Sources */,
+				A54BCB902907E0F300915EF0 /* MainListView.swift in Sources */,
 				A54BCB662907E02200915EF0 /* ContentView.swift in Sources */,
 				A54BCB642907E02200915EF0 /* MendeleevTableApp.swift in Sources */,
+				A54BCB8C2907E0F300915EF0 /* PeriodicTableModel.swift in Sources */,
+				A54BCB8E2907E0F300915EF0 /* PeriodicTableJSON.swift in Sources */,
+				A54BCB922907E0F300915EF0 /* Color.Extention.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +265,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A54BCB952907E0F300915EF0 /* ElementDetailView.swift in Sources */,
+				A54BCB912907E0F300915EF0 /* MainListView.swift in Sources */,
 				A54BCB782907E02200915EF0 /* ContentView.swift in Sources */,
 				A54BCB762907E02200915EF0 /* MendeleevTableApp.swift in Sources */,
+				A54BCB8D2907E0F300915EF0 /* PeriodicTableModel.swift in Sources */,
+				A54BCB8F2907E0F300915EF0 /* PeriodicTableJSON.swift in Sources */,
+				A54BCB932907E0F300915EF0 /* Color.Extention.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
