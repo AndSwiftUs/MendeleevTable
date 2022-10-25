@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A54BCB642907E02200915EF0 /* MendeleevTableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54BCB632907E02200915EF0 /* MendeleevTableApp.swift */; };
+		A54BCB662907E02200915EF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54BCB652907E02200915EF0 /* ContentView.swift */; };
+		A54BCB682907E02200915EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54BCB672907E02200915EF0 /* Assets.xcassets */; };
+		A54BCB6B2907E02200915EF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54BCB6A2907E02200915EF0 /* Preview Assets.xcassets */; };
+		A54BCB712907E02200915EF0 /* MendeleevTable Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A54BCB702907E02200915EF0 /* MendeleevTable Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A54BCB762907E02200915EF0 /* MendeleevTableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54BCB752907E02200915EF0 /* MendeleevTableApp.swift */; };
+		A54BCB782907E02200915EF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54BCB772907E02200915EF0 /* ContentView.swift */; };
+		A54BCB7A2907E02300915EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54BCB792907E02300915EF0 /* Assets.xcassets */; };
+		A54BCB7D2907E02300915EF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54BCB7C2907E02300915EF0 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A54BCB722907E02200915EF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A54BCB582907E02200915EF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A54BCB6F2907E02200915EF0;
+			remoteInfo = "MendeleevTable Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A54BCB832907E02300915EF0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A54BCB712907E02200915EF0 /* MendeleevTable Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A54BCB602907E02200915EF0 /* MendeleevTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MendeleevTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54BCB632907E02200915EF0 /* MendeleevTableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MendeleevTableApp.swift; sourceTree = "<group>"; };
+		A54BCB652907E02200915EF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A54BCB672907E02200915EF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A54BCB6A2907E02200915EF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A54BCB702907E02200915EF0 /* MendeleevTable Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MendeleevTable Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54BCB752907E02200915EF0 /* MendeleevTableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MendeleevTableApp.swift; sourceTree = "<group>"; };
+		A54BCB772907E02200915EF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A54BCB792907E02300915EF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A54BCB7C2907E02300915EF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A54BCB5D2907E02200915EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54BCB6D2907E02200915EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A54BCB572907E02200915EF0 = {
+			isa = PBXGroup;
+			children = (
+				A54BCB622907E02200915EF0 /* MendeleevTable */,
+				A54BCB742907E02200915EF0 /* MendeleevTable Watch App */,
+				A54BCB612907E02200915EF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A54BCB612907E02200915EF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A54BCB602907E02200915EF0 /* MendeleevTable.app */,
+				A54BCB702907E02200915EF0 /* MendeleevTable Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A54BCB622907E02200915EF0 /* MendeleevTable */ = {
+			isa = PBXGroup;
+			children = (
+				A54BCB632907E02200915EF0 /* MendeleevTableApp.swift */,
+				A54BCB652907E02200915EF0 /* ContentView.swift */,
+				A54BCB672907E02200915EF0 /* Assets.xcassets */,
+				A54BCB692907E02200915EF0 /* Preview Content */,
+			);
+			path = MendeleevTable;
+			sourceTree = "<group>";
+		};
+		A54BCB692907E02200915EF0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A54BCB6A2907E02200915EF0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A54BCB742907E02200915EF0 /* MendeleevTable Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				A54BCB752907E02200915EF0 /* MendeleevTableApp.swift */,
+				A54BCB772907E02200915EF0 /* ContentView.swift */,
+				A54BCB792907E02300915EF0 /* Assets.xcassets */,
+				A54BCB7B2907E02300915EF0 /* Preview Content */,
+			);
+			path = "MendeleevTable Watch App";
+			sourceTree = "<group>";
+		};
+		A54BCB7B2907E02300915EF0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A54BCB7C2907E02300915EF0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A54BCB5F2907E02200915EF0 /* MendeleevTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54BCB842907E02300915EF0 /* Build configuration list for PBXNativeTarget "MendeleevTable" */;
+			buildPhases = (
+				A54BCB5C2907E02200915EF0 /* Sources */,
+				A54BCB5D2907E02200915EF0 /* Frameworks */,
+				A54BCB5E2907E02200915EF0 /* Resources */,
+				A54BCB832907E02300915EF0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A54BCB732907E02200915EF0 /* PBXTargetDependency */,
+			);
+			name = MendeleevTable;
+			productName = MendeleevTable;
+			productReference = A54BCB602907E02200915EF0 /* MendeleevTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A54BCB6F2907E02200915EF0 /* MendeleevTable Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54BCB802907E02300915EF0 /* Build configuration list for PBXNativeTarget "MendeleevTable Watch App" */;
+			buildPhases = (
+				A54BCB6C2907E02200915EF0 /* Sources */,
+				A54BCB6D2907E02200915EF0 /* Frameworks */,
+				A54BCB6E2907E02200915EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MendeleevTable Watch App";
+			productName = "MendeleevTable Watch App";
+			productReference = A54BCB702907E02200915EF0 /* MendeleevTable Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A54BCB582907E02200915EF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					A54BCB5F2907E02200915EF0 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					A54BCB6F2907E02200915EF0 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = A54BCB5B2907E02200915EF0 /* Build configuration list for PBXProject "MendeleevTable" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A54BCB572907E02200915EF0;
+			productRefGroup = A54BCB612907E02200915EF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A54BCB5F2907E02200915EF0 /* MendeleevTable */,
+				A54BCB6F2907E02200915EF0 /* MendeleevTable Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A54BCB5E2907E02200915EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54BCB6B2907E02200915EF0 /* Preview Assets.xcassets in Resources */,
+				A54BCB682907E02200915EF0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54BCB6E2907E02200915EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54BCB7D2907E02300915EF0 /* Preview Assets.xcassets in Resources */,
+				A54BCB7A2907E02300915EF0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A54BCB5C2907E02200915EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54BCB662907E02200915EF0 /* ContentView.swift in Sources */,
+				A54BCB642907E02200915EF0 /* MendeleevTableApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54BCB6C2907E02200915EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54BCB782907E02200915EF0 /* ContentView.swift in Sources */,
+				A54BCB762907E02200915EF0 /* MendeleevTableApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A54BCB732907E02200915EF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A54BCB6F2907E02200915EF0 /* MendeleevTable Watch App */;
+			targetProxy = A54BCB722907E02200915EF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A54BCB7E2907E02300915EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A54BCB7F2907E02300915EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A54BCB812907E02300915EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MendeleevTable Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 4J6XBP5LJF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MendeleevTable;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = and.digital.us.MendeleevTable;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = and.digital.us.MendeleevTable.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		A54BCB822907E02300915EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MendeleevTable Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 4J6XBP5LJF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MendeleevTable;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = and.digital.us.MendeleevTable;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = and.digital.us.MendeleevTable.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		A54BCB852907E02300915EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MendeleevTable/Preview Content\"";
+				DEVELOPMENT_TEAM = 4J6XBP5LJF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MendeleevTable;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = and.digital.us.MendeleevTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A54BCB862907E02300915EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MendeleevTable/Preview Content\"";
+				DEVELOPMENT_TEAM = 4J6XBP5LJF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MendeleevTable;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = and.digital.us.MendeleevTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A54BCB5B2907E02200915EF0 /* Build configuration list for PBXProject "MendeleevTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54BCB7E2907E02300915EF0 /* Debug */,
+				A54BCB7F2907E02300915EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54BCB802907E02300915EF0 /* Build configuration list for PBXNativeTarget "MendeleevTable Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54BCB812907E02300915EF0 /* Debug */,
+				A54BCB822907E02300915EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54BCB842907E02300915EF0 /* Build configuration list for PBXNativeTarget "MendeleevTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54BCB852907E02300915EF0 /* Debug */,
+				A54BCB862907E02300915EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A54BCB582907E02200915EF0 /* Project object */;
+}
