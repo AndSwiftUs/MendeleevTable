@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  MendeleevTable Watch App
-//
-//  Created by AndBelarUs on 25.10.2022.
-//
-
 import SwiftUI
 
 struct ContentView: View {

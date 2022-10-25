@@ -1,10 +1,3 @@
-//
-//  MendeleevTableApp.swift
-//  MendeleevTable
-//
-//  Created by AndBelarUs on 25.10.2022.
-//
-
 import SwiftUI
 
 @main
