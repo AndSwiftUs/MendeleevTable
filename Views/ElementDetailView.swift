@@ -14,20 +14,28 @@ struct ElementDetailView: View {
                     .font(.title)
                     .foregroundColor(Color(hex: "\(element.cpkHex ?? "clear")"))
                 VStack {
+                    Text("\(element.nameRU!)").font(.footnote)
                     Text("\(element.name!)").font(.footnote)
-                    Text("\(element.atomicMass!)").font(.footnote)
                 }
             }
             
             Divider()
-
+            
             ScrollView {
                 
                 Group {
+                    VStack {
+                        Text("Атомная масса:").font(.footnote)
+                        Text("\(element.atomicMass!)")
+                    }
+                    Divider()
                     HStack {
-                        Text("Группа: \(element.period!)")
+                        Text("Период (ряд): \(element.period!)")
                         Divider()
-                        Text("Состояние: \(element.phase ?? "неизвестно")")
+                        VStack {
+                            Text("Состояние:")
+                            Text("\(element.phase ?? "неизвестно")")
+                        }
                     }.font(.footnote)
                     
                     Divider()
@@ -103,5 +111,11 @@ struct ElementDetailView: View {
                 }
             }
         }
+    }
+}
+
+struct ElementDetailView_Previews: PreviewProvider {
+    static var previews: some View {
+        ElementDetailView(element: PeriodicTableOfElements().elements.randomElement()!)
     }
 }

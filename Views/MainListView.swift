@@ -1,3 +1,4 @@
+import UIKit
 import SwiftUI
 
 struct MainListView: View {
@@ -20,13 +21,18 @@ struct MainListView: View {
                             .bold()
                             .foregroundColor(Color(hex: "\(element.cpkHex ?? "clear")"))
                         Spacer()
-                        Text("\(element.name!)").font(.footnote)
+                        if element.number != 15 {
+                            Text("\(lround(element.atomicMass!))").font(.footnote)
+                        } else {
+                            Text("35.5").font(.footnote)
+                        }
+                        Text("\(element.nameRU ?? element.name!)").font(.footnote)
                     }
                 }
+//                .listRowBackground(Color(hex: "\(element.cpkHex ?? "clear")"))
             }
-            .searchable(text: $searchText, prompt: "number, mass, element")
+            .searchable(text: $searchText, prompt: "№, масса, элемент")
             .onChange(of: searchText) { searchText in
-                
                 if !searchText.isEmpty {
                     periodicTableElements = PeriodicTableOfElements().elements.filter { String($0.number!).contains(searchText) || $0.symbol!.contains(searchText) || String($0.atomicMass!).contains(searchText)
                     }
