@@ -2,7 +2,7 @@ let json = """
 [
         {
             "name": "Hydrogen",
-            "nameRU": "Водород",
+            "nameRU": "Водоро́д",
             "appearance": "colorless gas",
             "atomic_mass": 1.008,
             "boil": 20.271,
@@ -19,7 +19,7 @@ let json = """
             "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_001_hydrogen/element_001_hydrogen_srp_th.png",
             "bohrModel3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_001_hydrogen/element_001_hydrogen.glb",
             "spectral_img": "https://en.wikipedia.org/wiki/File:Hydrogen_Spectra.jpg",
-            "summary": "Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.",
+            "summary": "Водоро́д (химический символ — H, от лат. hydrogenium) — химический элемент первого периода периодической таблицы химических элементов Д. И. Менделеева, с атомным номером 1. Одноатомная форма водорода — самое распространённое химическое вещество во Вселенной, составляющее примерно 75 % всей барионной массы. Звёзды, кроме компактных, в основном состоят из водородной плазмы. Самый лёгкий из элементов периодической таблицы. Три изотопа водорода имеют собственные названия: 1H — протий, 2H — дейтерий и 3H — тритий (радиоактивен). Ядро самого распространённого изотопа — протия — состоит из одного только протона и не содержит нейтронов. При стандартных температуре и давлении водород — бесцветный, не имеющий запаха и вкуса, нетоксичный двухатомный газ (химическая формула — H2), который в смеси с воздухом или кислородом горюч и крайне пожаро- и взрывоопасен. В присутствии других окисляющих газов, например фтора или хлора, водород также взрывоопасен. Поскольку водород охотно формирует ковалентные связи с большинством неметаллов, большая часть водорода на Земле существует в молекулярных соединениях, таких как вода или органические вещества. Водород играет особенно важную роль в кислотно-основных реакциях. Растворим в этаноле и ряде металлов: железе, никеле, палладии, титане, платине, ниобии.",
             "symbol": "H",
             "xpos": 1,
             "ypos": 1,

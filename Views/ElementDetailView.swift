@@ -30,10 +30,10 @@ struct ElementDetailView: View {
                     }
                     Divider()
                     HStack {
-                        Text("Период (ряд): \(element.period!)")
+                        Text("Период (группа): \(element.period!)")
                         Divider()
                         VStack {
-                            Text("Состояние:")
+                            //                            Text("Состояние:")
                             Text("\(element.phase ?? "неизвестно")")
                         }
                     }.font(.footnote)
@@ -41,8 +41,16 @@ struct ElementDetailView: View {
                     Divider()
                     Text("\(element.category!)").font(.footnote)
                     Divider()
+                    
+                    VStack {
+                        Divider()
+                        Text("Эле́ктроотрица́тельность").font(.footnote).lineLimit(1)
+                        Text("\(element.electronegativityPauling ?? 0)")
+                        Divider()
+                    }
                 }
                 
+                Text("Электронная конфигурация:").font(.footnote).padding()
                 NavigationLink {
                     AsyncImage(url: URL(string: element.bohrModelImage!)!) { image in
                         image.resizable().scaledToFit()
@@ -51,9 +59,8 @@ struct ElementDetailView: View {
                     }
                 } label: {
                     VStack {
-                        Text("\(element.electronConfiguration!)")
-                            .font(.footnote).foregroundColor(.gray)
-                        Text("\(element.electronConfigurationSemantic!)")
+                        Text("\(element.electronConfiguration!)").font(.footnote).foregroundColor(.secondary)
+                        Text("\(element.electronConfigurationSemantic!)").padding()
                     }
                 }
                 
@@ -83,7 +90,7 @@ struct ElementDetailView: View {
                 
                 if element.melt != nil {
                     VStack {
-                        Text("Melt:").font(.footnote)
+                        Text("Температура плавления:").font(.footnote)
                         Text("\(element.melt!)")
                     }
                     Divider()
@@ -91,7 +98,7 @@ struct ElementDetailView: View {
                 
                 if element.molarHeat != nil {
                     VStack {
-                        Text("Molar heat:").font(.footnote)
+                        Text("Моля́рная теплоёмкость:").font(.footnote)
                         Text("\(element.molarHeat!)")
                     }
                     Divider()
@@ -99,7 +106,7 @@ struct ElementDetailView: View {
                 
                 if element.density != nil {
                     VStack {
-                        Text("Density:").font(.footnote)
+                        Text("Плотность:").font(.footnote)
                         Text("\(element.density!)")
                     }
                     Divider()
