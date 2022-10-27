@@ -21,7 +21,7 @@ struct MainListView: View {
                             .bold()
                             .foregroundColor(Color(hex: "\(element.cpkHex ?? "clear")"))
                         Spacer()
-                        if element.number != 15 {
+                        if element.number != 17 {
                             Text("\(lround(element.atomicMass!))").font(.footnote)
                         } else {
                             Text("35.5").font(.footnote)
