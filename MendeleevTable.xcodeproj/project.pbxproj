@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49687754290FA2CA001A7FE5 /* RastvorimostTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49687753290FA2CA001A7FE5 /* RastvorimostTable.swift */; };
+		49687755290FA2CA001A7FE5 /* RastvorimostTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49687753290FA2CA001A7FE5 /* RastvorimostTable.swift */; };
+		49687757290FAFF9001A7FE5 /* RastvorimostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49687756290FAFF9001A7FE5 /* RastvorimostView.swift */; };
+		49687758290FAFF9001A7FE5 /* RastvorimostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49687756290FAFF9001A7FE5 /* RastvorimostView.swift */; };
 		A54BCB642907E02200915EF0 /* MendeleevTableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54BCB632907E02200915EF0 /* MendeleevTableApp.swift */; };
 		A54BCB662907E02200915EF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54BCB652907E02200915EF0 /* ContentView.swift */; };
 		A54BCB682907E02200915EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54BCB672907E02200915EF0 /* Assets.xcassets */; };
@@ -53,6 +57,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		49687753290FA2CA001A7FE5 /* RastvorimostTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RastvorimostTable.swift; sourceTree = "<group>"; };
+		49687756290FAFF9001A7FE5 /* RastvorimostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RastvorimostView.swift; sourceTree = "<group>"; };
 		A54BCB602907E02200915EF0 /* MendeleevTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MendeleevTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A54BCB632907E02200915EF0 /* MendeleevTableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MendeleevTableApp.swift; sourceTree = "<group>"; };
 		A54BCB652907E02200915EF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,9 +99,9 @@
 			children = (
 				A59C120B2907EC4A0058F435 /* Utilities */,
 				A59C120A2907EC330058F435 /* Model */,
+				A59C120C2907EC620058F435 /* Views */,
 				A54BCB622907E02200915EF0 /* MendeleevTable */,
 				A54BCB742907E02200915EF0 /* MendeleevTable Watch App */,
-				A59C120C2907EC620058F435 /* Views */,
 				A54BCB612907E02200915EF0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -151,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				A54BCB882907E0F300915EF0 /* PeriodicTableJSON.swift */,
+				49687753290FA2CA001A7FE5 /* RastvorimostTable.swift */,
 				A54BCB872907E0F300915EF0 /* PeriodicTableModel.swift */,
 			);
 			path = Model;
@@ -169,6 +176,7 @@
 			children = (
 				A54BCB8B2907E0F300915EF0 /* ElementDetailView.swift */,
 				A54BCB892907E0F300915EF0 /* MainListView.swift */,
+				49687756290FAFF9001A7FE5 /* RastvorimostView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -277,11 +285,13 @@
 			files = (
 				A54BCB942907E0F300915EF0 /* ElementDetailView.swift in Sources */,
 				A54BCB902907E0F300915EF0 /* MainListView.swift in Sources */,
+				49687757290FAFF9001A7FE5 /* RastvorimostView.swift in Sources */,
 				A54BCB662907E02200915EF0 /* ContentView.swift in Sources */,
 				A54BCB642907E02200915EF0 /* MendeleevTableApp.swift in Sources */,
 				A54BCB8C2907E0F300915EF0 /* PeriodicTableModel.swift in Sources */,
 				A54BCB8E2907E0F300915EF0 /* PeriodicTableJSON.swift in Sources */,
 				A54BCB922907E0F300915EF0 /* Color.Extention.swift in Sources */,
+				49687754290FA2CA001A7FE5 /* RastvorimostTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,11 +301,13 @@
 			files = (
 				A54BCB952907E0F300915EF0 /* ElementDetailView.swift in Sources */,
 				A54BCB912907E0F300915EF0 /* MainListView.swift in Sources */,
+				49687758290FAFF9001A7FE5 /* RastvorimostView.swift in Sources */,
 				A54BCB782907E02200915EF0 /* ContentView.swift in Sources */,
 				A54BCB762907E02200915EF0 /* MendeleevTableApp.swift in Sources */,
 				A54BCB8D2907E0F300915EF0 /* PeriodicTableModel.swift in Sources */,
 				A54BCB8F2907E0F300915EF0 /* PeriodicTableJSON.swift in Sources */,
 				A54BCB932907E0F300915EF0 /* Color.Extention.swift in Sources */,
+				49687755290FA2CA001A7FE5 /* RastvorimostTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,7 +440,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MendeleevTable Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = 4J6XBP5LJF;
+				DEVELOPMENT_TEAM = UH3GS9823U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = MendeleevTable;
@@ -460,7 +472,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MendeleevTable Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = 4J6XBP5LJF;
+				DEVELOPMENT_TEAM = UH3GS9823U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = MendeleevTable;
@@ -493,7 +505,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MendeleevTable/Preview Content\"";
-				DEVELOPMENT_TEAM = 4J6XBP5LJF;
+				DEVELOPMENT_TEAM = UH3GS9823U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = MendeleevTable;
@@ -526,7 +538,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MendeleevTable/Preview Content\"";
-				DEVELOPMENT_TEAM = 4J6XBP5LJF;
+				DEVELOPMENT_TEAM = UH3GS9823U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = MendeleevTable;

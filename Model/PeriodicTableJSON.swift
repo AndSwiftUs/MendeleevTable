@@ -26,7 +26,7 @@ let json = """
             "shells": [
                 1
             ],
-            "electron_configuration": "1s1",
+            "electron_configuration": "1s1🁤",
             "electron_configuration_semantic": "1s1",
             "electron_affinity": 72.769,
             "electronegativity_pauling": 2.2,

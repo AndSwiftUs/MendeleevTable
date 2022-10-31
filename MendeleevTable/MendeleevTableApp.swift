@@ -4,7 +4,11 @@ import SwiftUI
 struct MendeleevTableApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            TabView {
+                MainListView()
+                RastvorimostView()
+            }.tabViewStyle(PageTabViewStyle())
         }
     }
 }

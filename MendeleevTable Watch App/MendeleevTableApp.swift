@@ -4,7 +4,11 @@ import SwiftUI
 struct MendeleevTable_Watch_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            TabView {
+                MainListView()
+                RastvorimostView()
+            }
         }
     }
 }
