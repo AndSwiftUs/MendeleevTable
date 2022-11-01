@@ -7,8 +7,14 @@ struct MendeleevTableApp: App {
 //            ContentView()
             TabView {
                 MainListView()
+                    .tabItem {
+                        Label("Элементы", systemImage: "list.bullet.rectangle")
+                    }
                 RastvorimostView()
-            }.tabViewStyle(PageTabViewStyle())
+                    .tabItem {
+                        Label("Растворимость", systemImage: "aqi.medium")
+                    }
+            }
         }
     }
 }

@@ -12,7 +12,7 @@ struct ElementDetailView: View {
                 }
                 Text(" \(element.symbol!) ")
                     .font(.title)
-                    .foregroundColor(Color(hex: "\(element.cpkHex ?? "clear")"))
+                    .foregroundColor(Color(element.bgColor!))
                 VStack {
                     Text("\(element.nameRU!)").font(.footnote)
                     Text("\(element.name!)").font(.footnote)
@@ -40,7 +40,6 @@ struct ElementDetailView: View {
                     
                     Divider()
                     Text("\(element.category!)").font(.footnote)
-                    Divider()
                     
                     VStack {
                         Divider()

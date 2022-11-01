@@ -14,12 +14,11 @@ struct MainListView: View {
                     ElementDetailView(element: element)
                 } label: {
                     HStack {
-                        Text("\(element.number!) ")
-                            .font(.footnote)
+                        Text("\(element.number!) ").font(.footnote)
                         Text("\(element.symbol!)")
                             .font(.title3)
                             .bold()
-                            .foregroundColor(Color(hex: "\(element.cpkHex ?? "clear")"))
+                            .foregroundColor(Color(element.bgColor!))
                         Spacer()
                         if element.number != 17 {
                             Text("\(lround(element.atomicMass!))").font(.footnote)
@@ -29,7 +28,7 @@ struct MainListView: View {
                         Text("\(element.nameRU ?? element.name!)").font(.footnote)
                     }
                 }
-//                .listRowBackground(Color(hex: "\(element.cpkHex ?? "clear")"))
+                .listRowBackground(Color(.clear))
             }
             .searchable(text: $searchText, prompt: "№, масса, элемент")
             .onChange(of: searchText) { searchText in

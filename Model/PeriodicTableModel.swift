@@ -9,6 +9,7 @@ struct ElementImage: Codable, Hashable {
 struct Element : Codable, Hashable {
     let name : String?
     let nameRU: String?
+    let bgColor: String?
     let appearance : String?
     let atomicMass : Double?
     let boil : Double?

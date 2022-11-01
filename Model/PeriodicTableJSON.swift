@@ -1,8 +1,9 @@
 let json = """
 [
         {
-            "name": "Hydrogen",
+            "name": "Hydrogenium",
             "nameRU": "Водоро́д",
+            "bgColor": "magenta",
             "appearance": "colorless gas",
             "atomic_mass": 1.008,
             "boil": 20.271,
@@ -43,6 +44,7 @@ let json = """
         {
             "name": "Helium",
             "nameRU": "Гелий",
+            "bgColor": "magenta",
             "appearance": "colorless gas, exhibiting a red-orange glow when placed in a high-voltage electric field",
             "atomic_mass": 4.0026022,
             "boil": 4.222,
@@ -59,7 +61,7 @@ let json = """
             "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_002_helium/element_002_helium_srp_th.png",
             "bohrModel3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_002_helium/element_002_helium.glb",
             "spectral_img": "https://en.wikipedia.org/wiki/File:Helium_spectrum.jpg",
-            "summary": "Helium is a chemical element with symbol He and atomic number 2. It is a colorless, odorless, tasteless, non-toxic, inert, monatomic gas that heads the noble gas group in the periodic table. Its boiling and melting points are the lowest among all the elements.",
+            "summary": "Ге́лий (химический символ — He, лат. Helium) — химический элемент 18-й группы (по устаревшей классификации — побочной подгруппы восьмой группы, VIIIB)[5] первого периода периодической системы химических элементов Д. И. Менделеева, с атомным номером 2. Простое вещество, гелий — инертный одноатомный газ без цвета, вкуса и запаха. По распространённости во Вселенной и по лёгкости занимает второе место после водорода. Его температура кипения — самая низкая среди всех известных веществ.",
             "symbol": "He",
             "xpos": 18,
             "ypos": 1,
@@ -83,7 +85,8 @@ let json = """
         },
         {
             "name": "Lithium",
-            "nameRU": "Литий",
+            "nameRU": "Ли́тий",
+            "bgColor": "magenta",
             "appearance": "silvery-white",
             "atomic_mass": 6.94,
             "boil": 1603,
@@ -127,6 +130,7 @@ let json = """
         {
             "name": "Beryllium",
             "nameRU": "Бериллий",
+            "bgColor": "magenta",
             "appearance": "white-gray metallic",
             "atomic_mass": 9.01218315,
             "boil": 2742,
@@ -171,6 +175,7 @@ let json = """
         {
             "name": "Boron",
             "nameRU": "Бор",
+            "bgColor": "orange",
             "appearance": "black-brown",
             "atomic_mass": 10.81,
             "boil": 4200,
@@ -216,6 +221,7 @@ let json = """
         {
             "name": "Carbon",
             "nameRU": "Углерод",
+            "bgColor": "orange",
             "appearance": null,
             "atomic_mass": 12.011,
             "boil": null,
@@ -262,6 +268,7 @@ let json = """
         {
             "name": "Nitrogen",
             "nameRU": "Азот",
+            "bgColor": "orange",
             "appearance": "colorless gas, liquid or solid",
             "atomic_mass": 14.007,
             "boil": 77.355,
@@ -309,6 +316,7 @@ let json = """
         {
             "name": "Oxygen",
             "nameRU": "Кислород",
+            "bgColor": "orange",
             "appearance": null,
             "atomic_mass": 15.999,
             "boil": 90.188,
@@ -357,6 +365,7 @@ let json = """
         {
             "name": "Fluorine",
             "nameRU": "Фтор",
+            "bgColor": "orange",
             "appearance": null,
             "atomic_mass": 18.9984031636,
             "boil": 85.03,
@@ -406,6 +415,7 @@ let json = """
         {
             "name": "Neon",
             "nameRU": "Неон",
+            "bgColor": "orange",
             "appearance": "colorless gas exhibiting an orange-red glow when placed in a high voltage electric field",
             "atomic_mass": 20.17976,
             "boil": 27.104,
@@ -456,6 +466,7 @@ let json = """
         {
             "name": "Sodium",
             "nameRU": "Натрий",
+            "bgColor": "magenta",
             "appearance": "silvery white metallic",
             "atomic_mass": 22.989769282,
             "boil": 1156.09,
@@ -508,6 +519,7 @@ let json = """
         {
             "name": "Magnesium",
             "nameRU": "Магний",
+            "bgColor": "magenta",
             "appearance": "shiny grey solid",
             "atomic_mass": 24.305,
             "boil": 1363,
@@ -561,6 +573,7 @@ let json = """
         {
             "name": "Aluminium",
             "nameRU": "Алюминий",
+            "bgColor": "orange",
             "appearance": "silvery gray metallic",
             "atomic_mass": 26.98153857,
             "boil": 2743,
@@ -615,6 +628,7 @@ let json = """
         {
             "name": "Silicon",
             "nameRU": "Кремний",
+            "bgColor": "orange",
             "appearance": "crystalline, reflective with bluish-tinged faces",
             "atomic_mass": 28.085,
             "boil": 3538,
@@ -670,6 +684,7 @@ let json = """
         {
             "name": "Phosphorus",
             "nameRU": "Фосфор",
+            "bgColor": "orange",
             "appearance": "colourless, waxy white, yellow, scarlet, red, violet, black",
             "atomic_mass": 30.9737619985,
             "boil": null,
@@ -726,6 +741,7 @@ let json = """
         {
             "name": "Sulfur",
             "nameRU": "Сера",
+            "bgColor": "orange",
             "appearance": "lemon yellow sintered microcrystals",
             "atomic_mass": 32.06,
             "boil": 717.8,
@@ -783,6 +799,7 @@ let json = """
         {
             "name": "Chlorine",
             "nameRU": "Хлор",
+            "bgColor": "orange",
             "appearance": "pale yellow-green gas",
             "atomic_mass": 35.45,
             "boil": 239.11,
@@ -841,6 +858,7 @@ let json = """
         {
             "name": "Argon",
             "nameRU": "Аргон",
+            "bgColor": "orange",
             "appearance": "colorless gas exhibiting a lilac/violet glow when placed in a high voltage electric field",
             "atomic_mass": 39.9481,
             "boil": 87.302,
@@ -900,6 +918,7 @@ let json = """
         {
             "name": "Potassium",
             "nameRU": "Калий",
+            "bgColor": "magenta",
             "appearance": "silvery gray",
             "atomic_mass": 39.09831,
             "boil": 1032,
@@ -961,6 +980,7 @@ let json = """
         {
             "name": "Calcium",
             "nameRU": "Кальций",
+            "bgColor": "magenta",
             "appearance": null,
             "atomic_mass": 40.0784,
             "boil": 1757,
@@ -1023,6 +1043,7 @@ let json = """
         {
             "name": "Scandium",
             "nameRU": "Скандий",
+            "bgColor": "blue",
             "appearance": "silvery white",
             "atomic_mass": 44.9559085,
             "boil": 3109,
@@ -1086,6 +1107,7 @@ let json = """
         {
             "name": "Titanium",
             "nameRU": "Титан",
+            "bgColor": "blue",
             "appearance": "silvery grey-white metallic",
             "atomic_mass": 47.8671,
             "boil": 3560,
@@ -1150,6 +1172,7 @@ let json = """
         {
             "name": "Vanadium",
             "nameRU": "Ванадий",
+            "bgColor": "blue",
             "appearance": "blue-silver-grey metal",
             "atomic_mass": 50.94151,
             "boil": 3680,
@@ -1215,6 +1238,7 @@ let json = """
         {
             "name": "Chromium",
             "nameRU": "Хром",
+            "bgColor": "blue",
             "appearance": "silvery metallic",
             "atomic_mass": 51.99616,
             "boil": 2944,
@@ -1281,6 +1305,7 @@ let json = """
         {
             "name": "Manganese",
             "nameRU": "Марганец",
+            "bgColor": "blue",
             "appearance": "silvery metallic",
             "atomic_mass": 54.9380443,
             "boil": 2334,
@@ -1348,6 +1373,7 @@ let json = """
         {
             "name": "Iron",
             "nameRU": "Железо",
+            "bgColor": "blue",
             "appearance": "lustrous metallic with a grayish tinge",
             "atomic_mass": 55.8452,
             "boil": 3134,
@@ -1416,6 +1442,7 @@ let json = """
         {
             "name": "Cobalt",
             "nameRU": "Кобальт",
+            "bgColor": "blue",
             "appearance": "hard lustrous gray metal",
             "atomic_mass": 58.9331944,
             "boil": 3200,
@@ -1485,6 +1512,7 @@ let json = """
         {
             "name": "Nickel",
             "nameRU": "Никель",
+            "bgColor": "blue",
             "appearance": "lustrous, metallic, and silver with a gold tinge",
             "atomic_mass": 58.69344,
             "boil": 3003,
@@ -1555,6 +1583,7 @@ let json = """
         {
             "name": "Copper",
             "nameRU": "Медь",
+            "bgColor": "blue",
             "appearance": "red-orange metallic luster",
             "atomic_mass": 63.5463,
             "boil": 2835,
@@ -1626,6 +1655,7 @@ let json = """
         {
             "name": "Zinc",
             "nameRU": "Цинк",
+            "bgColor": "blue",
             "appearance": "silver-gray",
             "atomic_mass": 65.382,
             "boil": 1180,
@@ -1689,6 +1719,7 @@ let json = """
         {
             "name": "Gallium",
             "nameRU": "Галлий",
+            "bgColor": "orange",
             "appearance": "silver-white",
             "atomic_mass": 69.7231,
             "boil": 2673,
@@ -1735,6 +1766,7 @@ let json = """
         {
             "name": "Germanium",
             "nameRU": "Германий",
+            "bgColor": "orange",
             "appearance": "grayish-white",
             "atomic_mass": 72.6308,
             "boil": 3106,
@@ -1782,6 +1814,7 @@ let json = """
         {
             "name": "Arsenic",
             "nameRU": "Мышьяк",
+            "bgColor": "orange",
             "appearance": "metallic grey",
             "atomic_mass": 74.9215956,
             "boil": null,
@@ -1830,6 +1863,7 @@ let json = """
         {
             "name": "Selenium",
             "nameRU": "Селен",
+            "bgColor": "orange",
             "appearance": "black, red, and gray (not pictured) allotropes",
             "atomic_mass": 78.9718,
             "boil": 958,
@@ -1879,6 +1913,7 @@ let json = """
         {
             "name": "Bromine",
             "nameRU": "Бром",
+            "bgColor": "orange",
             "appearance": null,
             "atomic_mass": 79.904,
             "boil": 332,
@@ -1929,6 +1964,7 @@ let json = """
         {
             "name": "Krypton",
             "nameRU": "Криптон",
+            "bgColor": "orange",
             "appearance": "colorless gas, exhibiting a whitish glow in a high electric field",
             "atomic_mass": 83.7982,
             "boil": 119.93,
@@ -2001,6 +2037,7 @@ let json = """
         {
             "name": "Rubidium",
             "nameRU": "Рубидий",
+            "bgColor": "magenta",
             "appearance": "grey white",
             "atomic_mass": 85.46783,
             "boil": 961,
@@ -2054,6 +2091,7 @@ let json = """
         {
             "name": "Strontium",
             "nameRU": "Стронций",
+            "bgColor": "magenta",
             "appearance": null,
             "atomic_mass": 87.621,
             "boil": 1650,
@@ -2108,6 +2146,7 @@ let json = """
         {
             "name": "Yttrium",
             "nameRU": "Иттрий",
+            "bgColor": "blue",
             "appearance": "silvery white",
             "atomic_mass": 88.905842,
             "boil": 3203,
@@ -2163,6 +2202,7 @@ let json = """
         {
             "name": "Zirconium",
             "nameRU": "Цирконий",
+            "bgColor": "blue",
             "appearance": "silvery white",
             "atomic_mass": 91.2242,
             "boil": 4650,
@@ -2212,6 +2252,7 @@ let json = """
         {
             "name": "Niobium",
             "nameRU": "Ниобий",
+            "bgColor": "blue",
             "appearance": "gray metallic, bluish when oxidized",
             "atomic_mass": 92.906372,
             "boil": 5017,
@@ -2262,6 +2303,7 @@ let json = """
         {
             "name": "Molybdenum",
             "nameRU": "Молибден",
+            "bgColor": "blue",
             "appearance": "gray metallic",
             "atomic_mass": 95.951,
             "boil": 4912,
@@ -2335,6 +2377,7 @@ let json = """
         {
             "name": "Technetium",
             "nameRU": "Технеций",
+            "bgColor": "blue",
             "appearance": "shiny gray metal",
             "atomic_mass": 98,
             "boil": 4538,
@@ -2381,6 +2424,7 @@ let json = """
         {
             "name": "Ruthenium",
             "nameRU": "Рутений",
+            "bgColor": "blue",
             "appearance": "silvery white metallic",
             "atomic_mass": 101.072,
             "boil": 4423,
@@ -2427,6 +2471,7 @@ let json = """
         {
             "name": "Rhodium",
             "nameRU": "Родий",
+            "bgColor": "blue",
             "appearance": "silvery white metallic",
             "atomic_mass": 102.905502,
             "boil": 3968,
@@ -2473,6 +2518,7 @@ let json = """
         {
             "name": "Palladium",
             "nameRU": "Палладий",
+            "bgColor": "blue",
             "appearance": "silvery white",
             "atomic_mass": 106.421,
             "boil": 3236,
@@ -2518,6 +2564,7 @@ let json = """
         {
             "name": "Silver",
             "nameRU": "Серебро",
+            "bgColor": "blue",
             "appearance": "lustrous white metal",
             "atomic_mass": 107.86822,
             "boil": 2435,
@@ -2564,6 +2611,7 @@ let json = """
         {
             "name": "Cadmium",
             "nameRU": "Кадмий",
+            "bgColor": "blue",
             "appearance": "silvery bluish-gray metallic",
             "atomic_mass": 112.4144,
             "boil": 1040,
@@ -2610,6 +2658,7 @@ let json = """
         {
             "name": "Indium",
             "nameRU": "Индий",
+            "bgColor": "orange",
             "appearance": "silvery lustrous gray",
             "atomic_mass": 114.8181,
             "boil": 2345,
@@ -2657,6 +2706,7 @@ let json = """
         {
             "name": "Tin",
             "nameRU": "Олово",
+            "bgColor": "orange",
             "appearance": "silvery-white (beta, β) or gray (alpha, α)",
             "atomic_mass": 118.7107,
             "boil": 2875,
@@ -2705,6 +2755,7 @@ let json = """
         {
             "name": "Antimony",
             "nameRU": "Сурьма",
+            "bgColor": "orange",
             "appearance": "silvery lustrous gray",
             "atomic_mass": 121.7601,
             "boil": 1908,
@@ -2754,6 +2805,7 @@ let json = """
         {
             "name": "Tellurium",
             "nameRU": "Теллур",
+            "bgColor": "orange",
             "appearance": null,
             "atomic_mass": 127.603,
             "boil": 1261,
@@ -2804,6 +2856,7 @@ let json = """
         {
             "name": "Iodine",
             "nameRU": "Иод",
+            "bgColor": "orange",
             "appearance": "lustrous metallic gray, violet as a gas",
             "atomic_mass": 126.904473,
             "boil": 457.4,
@@ -2850,6 +2903,7 @@ let json = """
         {
             "name": "Xenon",
             "nameRU": "Ксенон",
+            "bgColor": "orange",
             "appearance": "colorless gas, exhibiting a blue glow when placed in a high voltage electric field",
             "atomic_mass": 131.2936,
             "boil": 165.051,
@@ -2896,6 +2950,7 @@ let json = """
         {
             "name": "Cesium",
             "nameRU": "Цезий",
+            "bgColor": "magenta",
             "appearance": "silvery gold",
             "atomic_mass": 132.905451966,
             "boil": 944,
@@ -2943,6 +2998,7 @@ let json = """
         {
             "name": "Barium",
             "nameRU": "Барий",
+            "bgColor": "magenta",
             "appearance": null,
             "atomic_mass": 137.3277,
             "boil": 2118,
@@ -2990,6 +3046,7 @@ let json = """
         {
             "name": "Lanthanum",
             "nameRU": "Лантан",
+            "bgColor": "blue",
             "appearance": "silvery white",
             "atomic_mass": 138.905477,
             "boil": 3737,
@@ -3039,6 +3096,7 @@ let json = """
         {
             "name": "Cerium",
             "nameRU": "Церий",
+            "bgColor": "green",
             "appearance": "silvery white",
             "atomic_mass": 140.1161,
             "boil": 3716,
@@ -3089,6 +3147,7 @@ let json = """
         {
             "name": "Praseodymium",
             "nameRU": "Празеодим",
+            "bgColor": "green",
             "appearance": "grayish white",
             "atomic_mass": 140.907662,
             "boil": 3403,
@@ -3138,6 +3197,7 @@ let json = """
         {
             "name": "Neodymium",
             "nameRU": "Неодим",
+            "bgColor": "green",
             "appearance": "silvery white",
             "atomic_mass": 144.2423,
             "boil": 3347,
@@ -3186,6 +3246,7 @@ let json = """
         {
             "name": "Promethium",
             "nameRU": "Прометий",
+            "bgColor": "green",
             "appearance": "metallic",
             "atomic_mass": 145,
             "boil": 3273,
@@ -3234,6 +3295,7 @@ let json = """
         {
             "name": "Samarium",
             "nameRU": "Самарий",
+            "bgColor": "green",
             "appearance": "silvery white",
             "atomic_mass": 150.362,
             "boil": 2173,
@@ -3282,6 +3344,7 @@ let json = """
         {
             "name": "Europium",
             "nameRU": "Европий",
+            "bgColor": "green",
             "appearance": null,
             "atomic_mass": 151.9641,
             "boil": 1802,
@@ -3330,6 +3393,7 @@ let json = """
         {
             "name": "Gadolinium",
             "nameRU": "Гадолиний",
+            "bgColor": "green",
             "appearance": "silvery white",
             "atomic_mass": 157.253,
             "boil": 3273,
@@ -3378,6 +3442,7 @@ let json = """
         {
             "name": "Terbium",
             "nameRU": "Тербий",
+            "bgColor": "green",
             "appearance": "silvery white",
             "atomic_mass": 158.925352,
             "boil": 3396,
@@ -3426,6 +3491,7 @@ let json = """
         {
             "name": "Dysprosium",
             "nameRU": "Диспрозий",
+            "bgColor": "green",
             "appearance": "silvery white",
             "atomic_mass": 162.5001,
             "boil": 2840,
@@ -3474,6 +3540,7 @@ let json = """
         {
             "name": "Holmium",
             "nameRU": "Гольмий",
+            "bgColor": "green",
             "appearance": "silvery white",
             "atomic_mass": 164.930332,
             "boil": 2873,
@@ -3522,6 +3589,7 @@ let json = """
         {
             "name": "Erbium",
             "nameRU": "Эрбий",
+            "bgColor": "green",
             "appearance": "silvery white",
             "atomic_mass": 167.2593,
             "boil": 3141,
@@ -3570,6 +3638,7 @@ let json = """
         {
             "name": "Thulium",
             "nameRU": "Тулий",
+            "bgColor": "green",
             "appearance": "silvery gray",
             "atomic_mass": 168.934222,
             "boil": 2223,
@@ -3618,6 +3687,7 @@ let json = """
         {
             "name": "Ytterbium",
             "nameRU": "Иттербий",
+            "bgColor": "green",
             "appearance": null,
             "atomic_mass": 173.0451,
             "boil": 1469,
@@ -3666,6 +3736,7 @@ let json = """
         {
             "name": "Lutetium",
             "nameRU": "Лютеций",
+            "bgColor": "green",
             "appearance": "silvery white",
             "atomic_mass": 174.96681,
             "boil": 3675,
@@ -3715,6 +3786,7 @@ let json = """
         {
             "name": "Hafnium",
             "nameRU": "Гафний",
+            "bgColor": "blue",
             "appearance": "steel gray",
             "atomic_mass": 178.492,
             "boil": 4876,
@@ -3763,6 +3835,7 @@ let json = """
         {
             "name": "Tantalum",
             "nameRU": "Тантал",
+            "bgColor": "blue",
             "appearance": "gray blue",
             "atomic_mass": 180.947882,
             "boil": 5731,
@@ -3809,6 +3882,7 @@ let json = """
         {
             "name": "Tungsten",
             "nameRU": "Вольфрам",
+            "bgColor": "blue",
             "appearance": "grayish white, lustrous",
             "atomic_mass": 183.841,
             "boil": 6203,
@@ -3855,6 +3929,7 @@ let json = """
         {
             "name": "Rhenium",
             "nameRU": "Рений",
+            "bgColor": "blue",
             "appearance": "silvery-grayish",
             "atomic_mass": 186.2071,
             "boil": 5869,
@@ -3903,6 +3978,7 @@ let json = """
         {
             "name": "Osmium",
             "nameRU": "Осмий",
+            "bgColor": "blue",
             "appearance": "silvery, blue cast",
             "atomic_mass": 190.233,
             "boil": 5285,
@@ -3949,6 +4025,7 @@ let json = """
         {
             "name": "Iridium",
             "nameRU": "Иридий",
+            "bgColor": "blue",
             "appearance": "silvery white",
             "atomic_mass": 192.2173,
             "boil": 4403,
@@ -3995,6 +4072,7 @@ let json = """
         {
             "name": "Platinum",
             "nameRU": "Платина",
+            "bgColor": "blue",
             "appearance": "silvery white",
             "atomic_mass": 195.0849,
             "boil": 4098,
@@ -4041,6 +4119,7 @@ let json = """
         {
             "name": "Gold",
             "nameRU": "Золото",
+            "bgColor": "blue",
             "appearance": "metallic yellow",
             "atomic_mass": 196.9665695,
             "boil": 3243,
@@ -4086,7 +4165,9 @@ let json = """
         },
         {
             "name": "Mercury",
-            "nameRU": "Ртуть",            "appearance": "silvery",
+            "nameRU": "Ртуть",
+            "bgColor": "blue",
+            "appearance": "silvery",
             "atomic_mass": 200.5923,
             "boil": 629.88,
             "category": "Переходный металл",
@@ -4133,6 +4214,7 @@ let json = """
         {
             "name": "Thallium",
             "nameRU": "Таллий",
+            "bgColor": "orange",
             "appearance": "silvery white",
             "atomic_mass": 204.38,
             "boil": 1746,
@@ -4180,6 +4262,7 @@ let json = """
         {
             "name": "Lead",
             "nameRU": "Свинец",
+            "bgColor": "orange",
             "appearance": "metallic gray",
             "atomic_mass": 207.21,
             "boil": 2022,
@@ -4229,6 +4312,7 @@ let json = """
         {
             "name": "Bismuth",
             "nameRU": "Висмут",
+            "bgColor": "orange",
             "appearance": "lustrous silver",
             "atomic_mass": 208.980401,
             "boil": 1837,
@@ -4279,6 +4363,7 @@ let json = """
         {
             "name": "Polonium",
             "nameRU": "Полоний",
+            "bgColor": "orange",
             "appearance": "silvery",
             "atomic_mass": 209,
             "boil": 1235,
@@ -4324,6 +4409,7 @@ let json = """
         {
             "name": "Astatine",
             "nameRU": "Астат",
+            "bgColor": "orange",
             "appearance": "unknown, probably metallic",
             "atomic_mass": 210,
             "boil": 610,
@@ -4369,6 +4455,7 @@ let json = """
         {
             "name": "Radon",
             "nameRU": "Радон",
+            "bgColor": "orange",
             "appearance": "colorless gas, occasionally glows green or red in discharge tubes",
             "atomic_mass": 222,
             "boil": 211.5,
@@ -4414,6 +4501,7 @@ let json = """
         {
             "name": "Francium",
             "nameRU": "Франций",
+            "bgColor": "magenta",
             "appearance": null,
             "atomic_mass": 223,
             "boil": 950,
@@ -4460,6 +4548,7 @@ let json = """
         {
             "name": "Radium",
             "nameRU": "Радий",
+            "bgColor": "magenta",
             "appearance": "silvery white metallic",
             "atomic_mass": 226,
             "boil": 2010,
@@ -4507,6 +4596,7 @@ let json = """
         {
             "name": "Actinium",
             "nameRU": "Актиний",
+            "bgColor": "blue",
             "appearance": null,
             "atomic_mass": 227,
             "boil": 3500,
@@ -4554,6 +4644,7 @@ let json = """
         {
             "name": "Thorium",
             "nameRU": "Торий",
+            "bgColor": "green",
             "appearance": "silvery, often with black tarnish",
             "atomic_mass": 232.03774,
             "boil": 5061,
@@ -4603,6 +4694,7 @@ let json = """
         {
             "name": "Protactinium",
             "nameRU": "Протактиний",
+            "bgColor": "green",
             "appearance": "bright, silvery metallic luster",
             "atomic_mass": 231.035882,
             "boil": 4300,
@@ -4649,6 +4741,7 @@ let json = """
         {
             "name": "Uranium",
             "nameRU": "Уран",
+            "bgColor": "green",
             "appearance": null,
             "atomic_mass": 238.028913,
             "boil": 4404,
@@ -4696,6 +4789,7 @@ let json = """
         {
             "name": "Neptunium",
             "nameRU": "Нептуний",
+            "bgColor": "green",
             "appearance": "silvery metallic",
             "atomic_mass": 237,
             "boil": 4447,
@@ -4742,6 +4836,7 @@ let json = """
         {
             "name": "Plutonium",
             "nameRU": "Плутоний",
+            "bgColor": "green",
             "appearance": "silvery white, tarnishing to dark gray in air",
             "atomic_mass": 244,
             "boil": 3505,
@@ -4788,6 +4883,7 @@ let json = """
         {
             "name": "Americium",
             "nameRU": "Америций",
+            "bgColor": "green",
             "appearance": "silvery white",
             "atomic_mass": 243,
             "boil": 2880,
@@ -4834,6 +4930,7 @@ let json = """
         {
             "name": "Curium",
             "nameRU": "Кюрий",
+            "bgColor": "green",
             "appearance": "silvery metallic, glows purple in the dark",
             "atomic_mass": 247,
             "boil": 3383,
@@ -4880,6 +4977,7 @@ let json = """
         {
             "name": "Berkelium",
             "nameRU": "Берклий",
+            "bgColor": "green",
             "appearance": "silvery",
             "atomic_mass": 247,
             "boil": 2900,
@@ -4926,6 +5024,7 @@ let json = """
         {
             "name": "Californium",
             "nameRU": "Калифорний",
+            "bgColor": "green",
             "appearance": "silvery",
             "atomic_mass": 251,
             "boil": 1743,
@@ -4972,6 +5071,7 @@ let json = """
         {
             "name": "Einsteinium",
             "nameRU": "Эйнштейний",
+            "bgColor": "green",
             "appearance": "silver-colored",
             "atomic_mass": 252,
             "boil": 1269,
@@ -5018,6 +5118,7 @@ let json = """
         {
             "name": "Fermium",
             "nameRU": "Фермий",
+            "bgColor": "green",
             "appearance": null,
             "atomic_mass": 257,
             "boil": null,
@@ -5064,6 +5165,7 @@ let json = """
         {
             "name": "Mendelevium",
             "nameRU": "Менделевий",
+            "bgColor": "green",
             "appearance": null,
             "atomic_mass": 258,
             "boil": null,
@@ -5110,6 +5212,7 @@ let json = """
         {
             "name": "Nobelium",
             "nameRU": "Нобелий",
+            "bgColor": "green",
             "appearance": null,
             "atomic_mass": 259,
             "boil": null,
@@ -5156,6 +5259,7 @@ let json = """
         {
             "name": "Lawrencium",
             "nameRU": "Лоуренсий",
+            "bgColor": "green",
             "appearance": null,
             "atomic_mass": 266,
             "boil": null,
@@ -5202,6 +5306,7 @@ let json = """
         {
             "name": "Rutherfordium",
             "nameRU": "Резерфордий",
+            "bgColor": "blue",
             "appearance": null,
             "atomic_mass": 267,
             "boil": 5800,
@@ -5248,6 +5353,7 @@ let json = """
         {
             "name": "Dubnium",
             "nameRU": "Дубний",
+            "bgColor": "blue",
             "appearance": null,
             "atomic_mass": 268,
             "boil": null,
@@ -5292,6 +5398,7 @@ let json = """
         {
             "name": "Seaborgium",
             "nameRU": "Сиборгий",
+            "bgColor": "blue",
             "appearance": null,
             "atomic_mass": 269,
             "boil": null,
@@ -5336,6 +5443,7 @@ let json = """
         {
             "name": "Bohrium",
             "nameRU": "Борий",
+            "bgColor": "blue",
             "appearance": null,
             "atomic_mass": 270,
             "boil": null,
@@ -5380,6 +5488,7 @@ let json = """
         {
             "name": "Hassium",
             "nameRU": "Хассий",
+            "bgColor": "blue",
             "appearance": null,
             "atomic_mass": 269,
             "boil": null,
@@ -5424,6 +5533,7 @@ let json = """
         {
             "name": "Meitnerium",
             "nameRU": "Мейтнерий",
+            "bgColor": "blue",
             "appearance": null,
             "atomic_mass": 278,
             "boil": null,
@@ -5468,6 +5578,7 @@ let json = """
         {
             "name": "Darmstadtium",
             "nameRU": "Дармштадтий",
+            "bgColor": "blue",
             "appearance": null,
             "atomic_mass": 281,
             "boil": null,
@@ -5512,6 +5623,7 @@ let json = """
         {
             "name": "Roentgenium",
             "nameRU": "Рентгений",
+            "bgColor": "blue",
             "appearance": null,
             "atomic_mass": 282,
             "boil": null,
@@ -5556,6 +5668,7 @@ let json = """
         {
             "name": "Copernicium",
             "nameRU": "Коперниций",
+            "bgColor": "blue",
             "appearance": null,
             "atomic_mass": 285,
             "boil": 3570,
@@ -5600,6 +5713,7 @@ let json = """
         {
             "name": "Nihonium",
             "nameRU": "Нихоний",
+            "bgColor": "orange",
             "appearance": null,
             "atomic_mass": 286,
             "boil": 1430,
@@ -5644,6 +5758,7 @@ let json = """
         {
             "name": "Flerovium",
             "nameRU": "Флеровий",
+            "bgColor": "orange",
             "appearance": null,
             "atomic_mass": 289,
             "boil": 420,
@@ -5688,6 +5803,7 @@ let json = """
         {
             "name": "Moscovium",
             "nameRU": "Московий",
+            "bgColor": "orange",
             "appearance": null,
             "atomic_mass": 289,
             "boil": 1400,
@@ -5732,6 +5848,7 @@ let json = """
         {
             "name": "Livermorium",
             "nameRU": "Ливерморий",
+            "bgColor": "orange",
             "appearance": null,
             "atomic_mass": 293,
             "boil": 1085,
@@ -5776,6 +5893,7 @@ let json = """
         {
             "name": "Tennessine",
             "nameRU": "Теннессин",
+            "bgColor": "orange",
             "appearance": null,
             "atomic_mass": 294,
             "boil": 883,
@@ -5820,6 +5938,7 @@ let json = """
         {
             "name": "Oganesson",
             "nameRU": "Оганесон",
+            "bgColor": "orange",
             "appearance": null,
             "atomic_mass": 294,
             "boil": 350,
@@ -5864,6 +5983,7 @@ let json = """
         {
             "name": "Ununennium",
             "nameRU": "Унун­енний",
+            "bgColor": "white",
             "appearance": null,
             "atomic_mass": 315,
             "boil": 630,
